@@ -1,0 +1,6 @@
+/** @format */
+
+export const actionsTypes = {
+  GET_DATA_FOR_INPUT: "GET_DATA_FOR_INPUT",
+  GET_CRYPTOCURRENCIES_FROM_API: "GET_CRYPTOCURRENCIES_FROM_API",
+};
