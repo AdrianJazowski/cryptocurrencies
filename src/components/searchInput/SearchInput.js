@@ -30,12 +30,11 @@ const SearchInput = () => {
   };
 
   const getCryptocurrenciesFromApiUponReguest = (cryptocurrencies) => {
-    const apiUrl = `https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?id=${cryptocurrencies}`;
+    const apiUrl = `https://cors-anywhere.herokuapp.com/https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?id=${cryptocurrencies}`;
     dispatch(getCryptocurrenciesFromApi([]));
     axios
       .get(apiUrl, {
         headers: {
-          "Access-Control-Allow-Origin": "*",
           "X-CMC_PRO_API_KEY": process.env.REACT_APP_API_KEY,
         },
       })

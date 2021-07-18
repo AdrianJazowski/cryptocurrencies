@@ -1,14 +1,10 @@
 /** @format */
 
 import { actionsTypes } from "../actions/actionsTypes";
+import { inputValues } from "../utils/Utils";
 
 const initialState = {
-  dataForInput: [
-    { name: "Bitcoin", id: 1 },
-    { name: "Ethereum", id: 1027 },
-    { name: "Tether", id: 825 },
-    { name: "Binance Coin", id: 1839 },
-  ],
+  dataForInput: inputValues,
   userCryptocurrencies: [],
 };
 
