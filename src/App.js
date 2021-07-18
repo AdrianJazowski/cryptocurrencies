@@ -50,9 +50,10 @@ const App = () => {
       })
       .then((response) => {
         const cryptoNames = response.data.data.map((crypto) => {
+          const { name, id } = crypto;
           const arrayOfCrypto = {
-            name: crypto.name,
-            id: crypto.id,
+            name: name,
+            id: id,
           };
           return arrayOfCrypto;
         });

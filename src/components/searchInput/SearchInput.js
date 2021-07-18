@@ -24,8 +24,8 @@ const SearchInput = () => {
 
   const getCryptocurrenciesId = (e) => {
     e.preventDefault();
-    const cryptoIds = values.map((value) => value.id);
-    getCryptocurrenciesFromApiUponReguest(cryptoIds);
+    const cryptocurrenciesId = values.map((value) => value.id);
+    getCryptocurrenciesFromApiUponReguest(cryptocurrenciesId);
     setValues([]);
   };
 
@@ -74,7 +74,6 @@ const SearchInput = () => {
               {...params}
               variant="outlined"
               label="Choose your cryptocurrencies"
-              placeholder="cryptocurrencies"
               id="cryptocurrencies"
             />
           )}

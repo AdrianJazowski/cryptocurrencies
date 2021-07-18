@@ -8,7 +8,7 @@ const HeroBanner = () => {
     <HeroBannerWrapper>
       <h1>Wszystkie kryptowaluty w twoim zasięgu!</h1>
       <p>
-        Z nami możesz znaleźć każdą interesująca Cię kryptowalute. Skorzystaj z
+        Z nami możesz znaleźć każdą interesującą Cię kryptowalute. Skorzystaj z
         naszej wyszukiwarki poniżej!
       </p>
     </HeroBannerWrapper>
@@ -24,4 +24,10 @@ const HeroBannerWrapper = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 2rem;
+  h1 {
+    margin: 1rem;
+  }
+  p {
+    margin: 0.5rem;
+  }
 `;
