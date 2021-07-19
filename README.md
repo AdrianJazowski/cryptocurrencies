@@ -5,7 +5,6 @@
 An app about cryptocurrencies. Using the api: coinmarketcap.
 Components on the page use material-ui library. Application state managed by redux library.
 
-Live demo: https://cryptocurrencies-task.netlify.app/
 
 ## Main Tech stack:
 
