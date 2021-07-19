@@ -1,4 +1,4 @@
-# Blog-task
+# Cryptocurrencies
 
 ## Overview: 
 
