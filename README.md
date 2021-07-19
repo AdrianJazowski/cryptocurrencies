@@ -3,6 +3,7 @@
 ## Overview: 
 
 Before testing the application, please visit the website https://cors-anywhere.herokuapp.com/corsdemo
+
 Live demo: https://cryptocurrencies-task.netlify.app/
 
 An app about cryptocurrencies. Using the api: coinmarketcap.
